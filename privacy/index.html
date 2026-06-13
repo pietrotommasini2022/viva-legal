@@ -54,15 +54,24 @@
   </table>
   <p>I dati non vengono utilizzati per finalità pubblicitarie, di profilazione o ceduti a terzi per scopi commerciali.</p>
 
-  <h2>3. Riconoscimento vocale</h2>
+  <h2>3. Base giuridica del trattamento</h2>
+  <p>Ai sensi dell'art. 6 del GDPR, trattiamo i tuoi dati sulle seguenti basi giuridiche:</p>
+  <table>
+    <tr><th>Dato</th><th>Base giuridica</th></tr>
+    <tr><td>Nome ed email, contenuti caricati, trascrizioni delle risposte</td><td>Esecuzione del contratto di servizio (art. 6.1.b): sono necessari per erogare le funzionalità dell'app che hai richiesto.</td></tr>
+    <tr><td>Accesso al microfono e riconoscimento vocale</td><td>Consenso esplicito (art. 6.1.a), prestato tramite la finestra di autorizzazione di sistema e revocabile in qualsiasi momento dalle impostazioni del dispositivo.</td></tr>
+    <tr><td>Stato dell'abbonamento</td><td>Esecuzione del contratto (art. 6.1.b) e adempimento di obblighi legali di natura fiscale (art. 6.1.c).</td></tr>
+  </table>
+
+  <h2>4. Riconoscimento vocale</h2>
   <p>
-    Le risposte orali vengono registrate tramite il microfono del dispositivo e trascritte utilizzando il framework Speech di Apple (<em>SFSpeechRecognizer</em>). Apple elabora i dati audio sui propri server per produrre la trascrizione testuale. La trascrizione viene poi inviata ai server di Viva per la valutazione. Non conserviamo le registrazioni audio originali.
+    Le risposte orali vengono registrate tramite il microfono del dispositivo e trascritte utilizzando il framework Speech di Apple (<em>SFSpeechRecognizer</em>). Quando il tuo dispositivo dispone del modello di riconoscimento per la lingua italiana, la trascrizione avviene <strong>interamente sul dispositivo</strong> e l'audio non viene mai trasmesso. Solo qualora il riconoscimento on-device non sia disponibile, Apple può elaborare i dati audio sui propri server per produrre la trascrizione. La sola trascrizione testuale — non l'audio — viene poi inviata ai server di Viva per la valutazione. Non conserviamo le registrazioni audio originali.
   </p>
   <p>
     Il riconoscimento vocale richiede il consenso esplicito dell'utente tramite la finestra di autorizzazione di sistema e può essere disabilitato in qualsiasi momento da <em>Impostazioni → Privacy e sicurezza → Riconoscimento vocale</em>.
   </p>
 
-  <h2>4. Terze parti</h2>
+  <h2>5. Terze parti</h2>
   <p>Per erogare il servizio ci avvaliamo dei seguenti fornitori:</p>
   <ul>
     <li><strong>Supabase Inc.</strong> — database e archiviazione file (server in Unione Europea). Archivia i dati dell'account, i contenuti caricati e le sessioni d'esame.</li>
@@ -72,7 +81,7 @@
   </ul>
   <p>Tutti i fornitori trattano i dati esclusivamente per le finalità indicate e non li utilizzano per addestrare i propri modelli su richiesta contrattuale.</p>
 
-  <h2>5. Conservazione dei dati</h2>
+  <h2>6. Conservazione dei dati</h2>
   <table>
     <tr><th>Dato</th><th>Periodo di conservazione</th></tr>
     <tr><td>Dati account</td><td>Fino alla cancellazione dell'account</td></tr>
@@ -80,8 +89,9 @@
     <tr><td>Sessioni d'esame e trascrizioni</td><td>Fino alla cancellazione dell'account</td></tr>
     <tr><td>Dati abbonamento</td><td>10 anni (obbligo fiscale)</td></tr>
   </table>
+  <p>I dati sono trasmessi tramite connessioni cifrate (HTTPS/TLS) e conservati su infrastrutture che applicano misure di sicurezza adeguate. L'accesso ai dati è limitato tramite autenticazione e regole di sicurezza a livello di riga (Row Level Security): ogni utente può accedere unicamente ai propri dati.</p>
 
-  <h2>6. Diritti dell'interessato</h2>
+  <h2>7. Diritti dell'interessato</h2>
   <p>In qualità di interessato hai diritto a:</p>
   <ul>
     <li>Accedere ai tuoi dati personali</li>
@@ -93,15 +103,15 @@
   <p>Per esercitare i tuoi diritti scrivi a <a href="mailto:pietro.tommasini@gmail.com">pietro.tommasini@gmail.com</a>. Risponderemo entro 30 giorni.</p>
   <p>Puoi eliminare il tuo account e tutti i dati associati direttamente dall'app, da <em>Impostazioni → Privacy e dati → Elimina account</em>. L'operazione è immediata e irreversibile. Puoi anche scaricare una copia dei tuoi dati in formato JSON da <em>Impostazioni → Privacy e dati → Scarica i tuoi dati</em>.</p>
 
-  <h2>7. Trasferimenti extra-UE</h2>
+  <h2>8. Trasferimenti extra-UE</h2>
   <p>
     Google LLC e OpenAI LLC hanno sede negli Stati Uniti. Il trasferimento dei dati avviene nel rispetto del GDPR tramite le clausole contrattuali standard adottate da ciascun fornitore.
   </p>
 
-  <h2>8. Minori</h2>
+  <h2>9. Minori</h2>
   <p>Viva è destinata a studenti universitari. Non raccogliamo consapevolmente dati di minori di 13 anni. Se ritieni che un minore abbia creato un account, contattaci per la cancellazione immediata.</p>
 
-  <h2>9. Modifiche</h2>
+  <h2>10. Modifiche</h2>
   <p>Eventuali modifiche sostanziali a questa policy verranno comunicate tramite notifica nell'app. L'uso continuativo del servizio dopo la notifica costituisce accettazione delle modifiche.</p>
 
   <footer>
